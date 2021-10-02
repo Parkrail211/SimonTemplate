@@ -35,8 +35,8 @@
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.exitButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.exitButton.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.exitButton.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
             this.exitButton.FlatAppearance.BorderSize = 0;
             this.exitButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.exitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
@@ -53,7 +53,7 @@
             // 
             // newButton
             // 
-            this.newButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.newButton.BackColor = System.Drawing.Color.LightSkyBlue;
             this.newButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.newButton.FlatAppearance.BorderSize = 0;
             this.newButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
@@ -69,17 +69,17 @@
             this.newButton.UseVisualStyleBackColor = false;
             this.newButton.Click += new System.EventHandler(this.newButton_Click);
             // 
-            // MainScreen
+            // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.newButton);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "MainScreen";
+            this.Name = "MenuScreen";
             this.Size = new System.Drawing.Size(301, 300);
             this.ResumeLayout(false);
 
